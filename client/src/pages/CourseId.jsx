@@ -113,7 +113,7 @@ const reviews = [
     }
 ];
 
-const Course = () => {
+const CourseId = () => {
     const [activeTab, setActiveTab] = useState('Overview');
     const [expandedSections, setExpandedSections] = useState({ 1: true });
     // State to track the currently playing video
@@ -431,4 +431,4 @@ const Course = () => {
     );
 };
 
-export default Course;
+export default CourseId;

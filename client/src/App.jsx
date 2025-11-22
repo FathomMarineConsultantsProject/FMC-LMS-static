@@ -42,7 +42,7 @@ function App() {
           <Route path='/create-course' element={<CreateCourse />} />
           <Route path='/resources' element={<Resources />} />
           <Route path='/incident' element={<Incident />} />
-          <Route path='courseId' element={<CourseId/>}/>
+          <Route path='/courseId' element={<CourseId/>}/>
           <Route path='/community' element={<Community />} /> 
           <Route path='/leaderboard' element={<Leaderboard />} /> 
           <Route path='/bookmarks' element={<Bookmarks />} />
